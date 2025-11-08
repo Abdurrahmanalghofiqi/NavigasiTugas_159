@@ -45,7 +45,4 @@ fun Awal(
             color = Color(0xFF6A0DAD),
             textAlign = TextAlign.Center
         )
-
-
-    }
-}
+        Spacer(modifier = Modifier.height(70.dp))
