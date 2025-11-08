@@ -37,5 +37,15 @@ fun Awal(
             .padding(horizontal = 16.dp, vertical = 15.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
-    )
+    ){
+        Text(
+            text = "Selamat Datang",
+            fontSize = 42.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color(0xFF6A0DAD),
+            textAlign = TextAlign.Center
+        )
+
+
+    }
 }
