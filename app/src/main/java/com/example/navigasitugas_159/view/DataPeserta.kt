@@ -35,7 +35,7 @@ fun TampilData(
         Pair(first = stringResource(id = R.string.nama_lengkap), second = "Contoh Nama"),
         Pair(first = stringResource(id = R.string.jenis_kelamin), second = "Lainnya"),
         Pair(first = stringResource(id = R.string.alamt), second = "Yogyakarta")
-    )
+    ).
     Scaffold(
         topBar = {
             TopAppBar(
