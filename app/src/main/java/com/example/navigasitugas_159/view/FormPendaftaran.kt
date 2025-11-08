@@ -57,7 +57,7 @@ fun Form(modifier: Modifier = Modifier,
                 Brush.verticalGradient(
                     colors = listOf(Color(0xFFE1BEE7), Color.White)
                 )
-                    .),
+            ),
         contentAlignment = Alignment.TopCenter
     ) {
         Column(
