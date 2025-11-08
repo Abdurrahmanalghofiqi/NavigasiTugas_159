@@ -47,7 +47,7 @@ fun Form(modifier: Modifier = Modifier,
     var textAlamat by remember { mutableStateOf("") }
 
     val gender = listOf("Laki-laki", "Perempuan")
-    val status = listOf("Janda", "Lajang", "Duda").
+    val status = listOf("Janda", "Lajang", "Duda")
 
     Box(
         modifier = Modifier
@@ -57,7 +57,7 @@ fun Form(modifier: Modifier = Modifier,
                 Brush.verticalGradient(
                     colors = listOf(Color(0xFFE1BEE7), Color.White)
                 )
-            ),
+                    .),
         contentAlignment = Alignment.TopCenter
     ) {
         Column(
