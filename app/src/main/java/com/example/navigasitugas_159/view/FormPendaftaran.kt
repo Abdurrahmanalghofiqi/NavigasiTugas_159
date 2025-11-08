@@ -71,7 +71,7 @@ fun Form(modifier: Modifier = Modifier,
                         Brush.horizontalGradient(
                             colors = listOf(Color(0xFF9C27B0), Color(0xFFE040FB))
                         )
-                    ).
+                    )
                     .padding(vertical = 24.dp)
             ) {
                 Text(
@@ -165,9 +165,7 @@ fun Form(modifier: Modifier = Modifier,
                             onClick = OnSubmitBtnClick,
                             colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF9C27B0)),
                             modifier = Modifier.weight(1f)
-                        ) {
-                            Text("Submit")
-                        }
+                        )
                     }
                 }
             }
