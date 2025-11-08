@@ -30,4 +30,12 @@ import com.example.navigasitugas_159.R
 fun Awal(
     modifier: Modifier = Modifier,
     OnSubmitBtnClick: () -> Unit
-)
+) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(horizontal = 16.dp, vertical = 15.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    )
+}
