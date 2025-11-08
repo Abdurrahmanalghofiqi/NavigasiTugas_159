@@ -46,3 +46,10 @@ fun Awal(
             textAlign = TextAlign.Center
         )
         Spacer(modifier = Modifier.height(70.dp))
+        Image(
+            painter = painterResource(id = R.drawable.logoumy),
+            contentDescription = "Logo CARD-LST",
+            modifier = Modifier
+                .size(180.dp)
+                .padding(4.dp)
+        )
