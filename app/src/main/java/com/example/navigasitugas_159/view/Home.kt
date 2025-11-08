@@ -56,7 +56,7 @@ fun Awal(
         Spacer(modifier = Modifier.height(70.dp))
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(
-                text = "Naufal Bayazid",
+                text = "Abdurrahman Alghofiqi",
                 fontSize = 20.sp,
                 fontWeight = FontWeight.Medium,
                 color = Color.Black
