@@ -50,7 +50,7 @@ fun TampilData(
                 )
             )
         }
-    ). { isiRuang ->
+    ) { isiRuang ->
         Column(
             modifier = Modifier
                 .padding(isiRuang)
