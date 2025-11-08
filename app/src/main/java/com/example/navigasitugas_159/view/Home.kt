@@ -53,3 +53,33 @@ fun Awal(
                 .size(180.dp)
                 .padding(4.dp)
         )
+        Spacer(modifier = Modifier.height(70.dp))
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Text(
+                text = "Naufal Bayazid",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Medium,
+                color = Color.Black
+            )
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(
+                text = "20220140192",
+                fontSize = 14.sp,
+                color = Color.Gray
+            )
+        }
+        Spacer(modifier = Modifier.height(50.dp))
+
+        Button(
+            onClick = OnSubmitBtnClick,
+            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF9C27B0)),
+            shape = RoundedCornerShape(50),
+            modifier = Modifier
+                .width(200.dp)
+                .height(50.dp)
+        ) {
+            Text(text = "Submit", fontSize = 18.sp, color = Color.White)
+        }
+
+    }
+}
