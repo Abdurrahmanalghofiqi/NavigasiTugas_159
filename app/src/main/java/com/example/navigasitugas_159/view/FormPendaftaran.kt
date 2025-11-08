@@ -40,14 +40,14 @@ import androidx.compose.ui.unit.sp
 fun Form(modifier: Modifier = Modifier,
          onBackBtnClick: () -> Unit = {},
          OnSubmitBtnClick: () -> Unit = {}
-). {
+) {
     var textNama by remember { mutableStateOf("") }
     var textJK by remember { mutableStateOf("") }
     var textStatus by remember { mutableStateOf("") }
     var textAlamat by remember { mutableStateOf("") }
 
     val gender = listOf("Laki-laki", "Perempuan")
-    val status = listOf("Janda", "Lajang", "Duda")
+    val status = listOf("Janda", "Lajang", "Duda").
 
     Box(
         modifier = Modifier
