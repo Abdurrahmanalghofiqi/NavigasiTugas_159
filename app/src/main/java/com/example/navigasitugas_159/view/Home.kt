@@ -26,6 +26,7 @@ import com.example.navigasitugas_159.R
 
 
 
+
 @Composable
 fun Awal(
     modifier: Modifier = Modifier,
