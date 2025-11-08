@@ -165,7 +165,9 @@ fun Form(modifier: Modifier = Modifier,
                             onClick = OnSubmitBtnClick,
                             colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF9C27B0)),
                             modifier = Modifier.weight(1f)
-                        )
+                        ) {
+                            Text("Submit")
+                        }
                     }
                 }
             }
